@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>send</title>
+</head>
+<body>
+<form action="{% url 'vr' %}" method="post">
+    {% csrf_token %}
+    <input type="text" name="txt"/>
+    <input type="submit"/>
+</form>
+
+</body>
+</html>

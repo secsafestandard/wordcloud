@@ -1,0 +1,2365 @@
+﻿[
+    {
+        "relate": [
+            "system32", 
+            "player", 
+            "media", 
+            "xp", 
+            "winepulse.drv", 
+            "module"
+        ], 
+        "weight": 503, 
+        "text": "windows"
+    }, 
+    {
+        "relate": [
+            "registerederr:ole:create_server", 
+            "{6c736db1-bd94-11d0-8a23-00aa00b58e10}", 
+            "0x1", 
+            "{d27cdb6e-ae6d-11cf-96b8-444553540000}", 
+            "log", 
+            "{00000507-0000-0010-8000-00aa006d2ea4}"
+        ], 
+        "weight": 500, 
+        "text": "registerederr:ole:cogetclassobject"
+    }, 
+    {
+        "relate": [
+            "绿色软件", 
+            "找到", 
+            "按钮", 
+            "窗口", 
+            "路径", 
+            "操作"
+        ], 
+        "weight": 1161, 
+        "text": "绿色"
+    }, 
+    {
+        "relate": [
+            "founderr:module:ldrinitializethunk", 
+            "initialization", 
+            "winetricks", 
+            "4ef6", 
+            "rocky", 
+            "c0000135"
+        ], 
+        "weight": 458, 
+        "text": "mfc42.dll"
+    }, 
+    {
+        "relate": [
+            "builtin", 
+            ".so", 
+            "libpulsecommon-9.0.so", 
+            "winepulse.drv", 
+            "err:module:load_builtin_dll", 
+            "load"
+        ], 
+        "weight": 499, 
+        "text": "目录"
+    }, 
+    {
+        "relate": [
+            "create", 
+            "err:mmdevapi:dllgetclassobject", 
+            "err:winedevice:async_create_driver", 
+            "err:module:load_builtin_dll", 
+            "libpulsecommon-9.0.so", 
+            "builtin"
+        ], 
+        "weight": 453, 
+        "text": "driver"
+    }, 
+    {
+        "relate": [
+            "page", 
+            "read", 
+            "0x00000000", 
+            "32-bit", 
+            "0009", 
+            "nil"
+        ], 
+        "weight": 431, 
+        "text": "fault"
+    }, 
+    {
+        "relate": [
+            "fault", 
+            "read", 
+            "0x00000000", 
+            "32-bit", 
+            "0009", 
+            "nil"
+        ], 
+        "weight": 423, 
+        "text": "page"
+    }, 
+    {
+        "relate": [
+            "missing", 
+            "assembly", 
+            "component", 
+            "load", 
+            "installation", 
+            "initialize"
+        ], 
+        "weight": 408, 
+        "text": "file"
+    }, 
+    {
+        "relate": [
+            "下载", 
+            "可执行程序", 
+            "提取", 
+            ".exe", 
+            "ole", 
+            "压缩文件"
+        ], 
+        "weight": 455, 
+        "text": "压缩包"
+    }, 
+    {
+        "relate": [
+            "cogetclassobject", 
+            "0x8001011d", 
+            "reading", 
+            "registry", 
+            "key", 
+            "弹窗"
+        ], 
+        "weight": 439, 
+        "text": "终端"
+    }, 
+    {
+        "relate": [
+            "page", 
+            "fault", 
+            "0x00000000", 
+            "32-bit", 
+            "0009", 
+            "nil"
+        ], 
+        "weight": 390, 
+        "text": "read"
+    }, 
+    {
+        "relate": [
+            "founderr:module:ldrinitializethunk", 
+            "err:mmdevapi:dllgetclassobject", 
+            "c0000135", 
+            "err:module:load_builtin_dll", 
+            "libpulsecommon-9.0.so", 
+            "builtin"
+        ], 
+        "weight": 427, 
+        "text": "initialization"
+    }, 
+    {
+        "relate": [
+            "应用程序", 
+            "应用", 
+            "终端", 
+            "ole", 
+            "cogetclassobject", 
+            "初始化"
+        ], 
+        "weight": 424, 
+        "text": "弹窗"
+    }, 
+    {
+        "relate": [
+            "blocked", 
+            "section", 
+            "应用", 
+            "弹窗", 
+            "信息", 
+            "组件"
+        ], 
+        "weight": 423, 
+        "text": "初始化"
+    }, 
+    {
+        "relate": [
+            "founderr:module:ldrinitializethunk", 
+            "initialization", 
+            "c0000135", 
+            "system32", 
+            "winetricks", 
+            "4ef6"
+        ], 
+        "weight": 391, 
+        "text": "msvbvm60.dll"
+    }, 
+    {
+        "relate": [
+            "下载安装", 
+            "压缩包", 
+            "链接", 
+            "要求", 
+            "更新", 
+            ".net"
+        ], 
+        "weight": 453, 
+        "text": "下载"
+    }, 
+    {
+        "relate": [
+            ".so", 
+            "builtin", 
+            "libpulsecommon-9.0.so", 
+            "winepulse.drv", 
+            "err:module:load_builtin_dll", 
+            "err:mmdevapi:dllgetclassobject"
+        ], 
+        "weight": 370, 
+        "text": "load"
+    }, 
+    {
+        "relate": [
+            "操作", 
+            "按钮", 
+            "空白", 
+            "路径", 
+            "找到", 
+            "功能"
+        ], 
+        "weight": 345, 
+        "text": "窗口"
+    }, 
+    {
+        "relate": [
+            "操作系统", 
+            "窗口", 
+            "黑屏", 
+            "按钮", 
+            "绿色", 
+            "继续"
+        ], 
+        "weight": 451, 
+        "text": "操作"
+    }, 
+    {
+        "relate": [
+            "0x00000000", 
+            "loading", 
+            "fault", 
+            "page", 
+            "read", 
+            "service"
+        ], 
+        "weight": 182, 
+        "text": "nil"
+    }, 
+    {
+        "relate": [
+            "registerederr:ole:cogetclassobject", 
+            "0x1", 
+            "cogetclassobject", 
+            "界面显示", 
+            "log", 
+            "err:winediag:nulldrv_createwindow"
+        ], 
+        "weight": 240, 
+        "text": "{6c736db1-bd94-11d0-8a23-00aa00b58e10}"
+    }, 
+    {
+        "relate": [
+            "driver", 
+            "err:winedevice:async_create_driver", 
+            "window", 
+            "npf", 
+            "err:winediag:nulldrv_createwindow", 
+            "microsoft.windows.common-controls"
+        ], 
+        "weight": 337, 
+        "text": "create"
+    }, 
+    {
+        "relate": [
+            "outdated", 
+            "err:winediag:secur32_initntlmsp", 
+            "3.0.25", 
+            "make", 
+            "winbind", 
+            "package"
+        ], 
+        "weight": 249, 
+        "text": "ntlm_auth"
+    }, 
+    {
+        "relate": [
+            "创建对象", 
+            "创建", 
+            "部件", 
+            "控件", 
+            "component", 
+            "create"
+        ], 
+        "weight": 343, 
+        "text": "activex"
+    }, 
+    {
+        "relate": [
+            "信息", 
+            "log", 
+            "libpulsecommon-9.0.so", 
+            "builtin", 
+            ".so", 
+            "winepulse.drv"
+        ], 
+        "weight": 348, 
+        "text": "响应"
+    }, 
+    {
+        "relate": [
+            "信息", 
+            "未注册", 
+            "继续", 
+            "framework", 
+            ".net", 
+            "microsoft"
+        ], 
+        "weight": 285, 
+        "text": "组件"
+    }, 
+    {
+        "relate": [
+            "对应", 
+            "找到", 
+            "压缩包", 
+            "控件", 
+            "路径", 
+            "插件"
+        ], 
+        "weight": 304, 
+        "text": "可执行程序"
+    }, 
+    {
+        "relate": [
+            "完成", 
+            "压缩包"
+        ], 
+        "weight": 297, 
+        "text": "压缩文件"
+    }, 
+    {
+        "relate": [
+            "registerederr:ole:cogetclassobject", 
+            "{d27cdb6e-ae6d-11cf-96b8-444553540000}", 
+            "{00000507-0000-0010-8000-00aa006d2ea4}", 
+            "log", 
+            "winetricks", 
+            "err:winedevice:async_create_driver"
+        ], 
+        "weight": 293, 
+        "text": "registerederr:ole:create_server"
+    }, 
+    {
+        "relate": [
+            "服务", 
+            "客户端", 
+            "sql", 
+            "server", 
+            "数据", 
+            "下载"
+        ], 
+        "weight": 293, 
+        "text": "服务器"
+    }, 
+    {
+        "relate": [
+            "function", 
+            "0x7b43b6ac", 
+            "called", 
+            "msls31.dll.lssbfdonepressubline", 
+            "32-bit", 
+            "log"
+        ], 
+        "weight": 240, 
+        "text": "unimplemented"
+    }, 
+    {
+        "relate": [
+            "{6c736db1-bd94-11d0-8a23-00aa00b58e10}", 
+            "终端", 
+            "弹窗", 
+            "客户端", 
+            "{d27cdb6e-ae6d-11cf-96b8-444553540000}", 
+            "0x1"
+        ], 
+        "weight": 281, 
+        "text": "cogetclassobject"
+    }, 
+    {
+        "relate": [
+            "mono", 
+            "process", 
+            "java", 
+            "version", 
+            "loaded", 
+            "microsoft"
+        ], 
+        "weight": 269, 
+        "text": "runtime"
+    }, 
+    {
+        "relate": [
+            "造成", 
+            "导致", 
+            "设置", 
+            "interface", 
+            "couldn", 
+            "{6c736db1-bd94-11d0-8a23-00aa00b58e10}"
+        ], 
+        "weight": 278, 
+        "text": "缺陷"
+    }, 
+    {
+        "relate": [
+            "应用程序", 
+            "32", 
+            "弹窗", 
+            "初始化", 
+            "乱码", 
+            "完成"
+        ], 
+        "weight": 394, 
+        "text": "应用"
+    }, 
+    {
+        "relate": [
+            "flash", 
+            "activex", 
+            "创建对象", 
+            "创建", 
+            "player", 
+            "测试"
+        ], 
+        "weight": 268, 
+        "text": "插件"
+    }, 
+    {
+        "relate": [
+            "unimplemented", 
+            "0x7b43b6ac", 
+            "called", 
+            "msls31.dll.lssbfdonepressubline", 
+            "32-bit", 
+            "log"
+        ], 
+        "weight": 227, 
+        "text": "function"
+    }, 
+    {
+        "relate": [
+            "framework", 
+            "microsoft", 
+            "version", 
+            "provider", 
+            "winetricks", 
+            "组件"
+        ], 
+        "weight": 243, 
+        "text": ".net"
+    }, 
+    {
+        "relate": [
+            "mfc42", 
+            "操作", 
+            "单机", 
+            "界面显示", 
+            "继续", 
+            "窗口"
+        ], 
+        "weight": 250, 
+        "text": "黑屏"
+    }, 
+    {
+        "relate": [
+            "mfc42", 
+            "闪退", 
+            "造成", 
+            "player", 
+            "模块", 
+            "按钮"
+        ], 
+        "weight": 237, 
+        "text": "严重错误"
+    }, 
+    {
+        "relate": [
+            "err:winediag:odbc_loaddrivermanager", 
+            "目录", 
+            "winetricks", 
+            "终端", 
+            "err:ole:coreleasemarshaldata", 
+            "imarshal::releasemarshaldata"
+        ], 
+        "weight": 163, 
+        "text": "libodbc.so"
+    }, 
+    {
+        "relate": [
+            "找到", 
+            "按钮", 
+            "窗口", 
+            "终端", 
+            "file", 
+            "存在"
+        ], 
+        "weight": 216, 
+        "text": "路径"
+    }, 
+    {
+        "relate": [
+            "弹窗", 
+            "初始化", 
+            "provider", 
+            "界面显示", 
+            "功能", 
+            "cogetclassobject"
+        ], 
+        "weight": 233, 
+        "text": "ole"
+    }, 
+    {
+        "relate": [
+            "数据", 
+            "严重错误", 
+            "完成", 
+            "server", 
+            "load", 
+            "窗口"
+        ], 
+        "weight": 255, 
+        "text": "闪退"
+    }, 
+    {
+        "relate": [
+            "threading", 
+            "change", 
+            "attempt", 
+            "builtin", 
+            ".so", 
+            "libpulsecommon-9.0.so"
+        ], 
+        "weight": 147, 
+        "text": "apartment"
+    }, 
+    {
+        "relate": [
+            "{6c736db1-bd94-11d0-8a23-00aa00b58e10}", 
+            "按钮", 
+            "registerederr:ole:cogetclassobject", 
+            "空白", 
+            "黑屏", 
+            "6c736db1-bd94-11d0-8a23-00aa00b58e10"
+        ], 
+        "weight": 228, 
+        "text": "界面显示"
+    }, 
+    {
+        "relate": [
+            "page", 
+            "客户端", 
+            "founderr:module:ldrinitializethunk", 
+            "信息", 
+            "目录", 
+            "乱码"
+        ], 
+        "weight": 216, 
+        "text": ".exe"
+    }, 
+    {
+        "relate": [
+            "entry", 
+            "point", 
+            "process", 
+            "execute", 
+            "module", 
+            "window"
+        ], 
+        "weight": 124, 
+        "text": "loaded"
+    }, 
+    {
+        "relate": [
+            "sql", 
+            "服务", 
+            "服务器", 
+            "microsoft", 
+            "xp", 
+            "registry"
+        ], 
+        "weight": 191, 
+        "text": "server"
+    }, 
+    {
+        "relate": [
+            "execute", 
+            "loaded", 
+            "system32", 
+            "winepulse.drv", 
+            "process", 
+            "windows"
+        ], 
+        "weight": 221, 
+        "text": "module"
+    }, 
+    {
+        "relate": [
+            "黑屏", 
+            "提示框", 
+            "图标", 
+            "界面显示", 
+            "mfc42", 
+            "对话框"
+        ], 
+        "weight": 224, 
+        "text": "单机"
+    }, 
+    {
+        "relate": [
+            "err:winediag:nulldrv_createwindow", 
+            "loaded", 
+            "mono", 
+            "execute", 
+            "window", 
+            "runtime"
+        ], 
+        "weight": 167, 
+        "text": "process"
+    }, 
+    {
+        "relate": [
+            "驱动", 
+            "控件", 
+            "模块", 
+            "乱码", 
+            "过期", 
+            "组件"
+        ], 
+        "weight": 209, 
+        "text": "加载"
+    }, 
+    {
+        "relate": [
+            "创建", 
+            "activex", 
+            "部件", 
+            "插件", 
+            "数据", 
+            "控件"
+        ], 
+        "weight": 212, 
+        "text": "创建对象"
+    }, 
+    {
+        "relate": [
+            "activex", 
+            "加载", 
+            "rocky", 
+            "zip", 
+            "过期", 
+            "创建"
+        ], 
+        "weight": 207, 
+        "text": "控件"
+    }, 
+    {
+        "relate": [
+            "builtin", 
+            ".so", 
+            "libpulsecommon-9.0.so", 
+            "err:module:load_builtin_dll", 
+            "err:mmdevapi:dllgetclassobject", 
+            "load"
+        ], 
+        "weight": 208, 
+        "text": "winepulse.drv"
+    }, 
+    {
+        "relate": [
+            "3.0.25", 
+            "make", 
+            "winbind", 
+            "package", 
+            "err:winediag:secur32_initntlmsp", 
+            "path"
+        ], 
+        "weight": 151, 
+        "text": "outdated"
+    }, 
+    {
+        "relate": [
+            "assembly", 
+            "load", 
+            "entry", 
+            "point", 
+            "implemented", 
+            "support"
+        ], 
+        "weight": 167, 
+        "text": "type"
+    }, 
+    {
+        "relate": [
+            "eip", 
+            "esp", 
+            "err:seh:setup_exception_record", 
+            "0x230000-0x231000-0x330000", 
+            "0009", 
+            "0x0eedfade"
+        ], 
+        "weight": 190, 
+        "text": "overflow"
+    }, 
+    {
+        "relate": [
+            "builtin", 
+            "libpulsecommon-9.0.so", 
+            "winepulse.drv", 
+            "err:module:load_builtin_dll", 
+            "err:mmdevapi:dllgetclassobject", 
+            "load"
+        ], 
+        "weight": 183, 
+        "text": ".so"
+    }, 
+    {
+        "relate": [
+            ".so", 
+            "libpulsecommon-9.0.so", 
+            "winepulse.drv", 
+            "err:module:load_builtin_dll", 
+            "err:mmdevapi:dllgetclassobject", 
+            "load"
+        ], 
+        "weight": 182, 
+        "text": "builtin"
+    }, 
+    {
+        "relate": [
+            "lock", 
+            "support", 
+            "flags", 
+            "activex", 
+            "unsupported", 
+            "path"
+        ], 
+        "weight": 150, 
+        "text": "implemented"
+    }, 
+    {
+        "relate": [
+            "server", 
+            "microsoft", 
+            "服务", 
+            "服务器", 
+            "数据", 
+            "继续"
+        ], 
+        "weight": 158, 
+        "text": "sql"
+    }, 
+    {
+        "relate": [
+            "function", 
+            "unimplemented", 
+            "msls31.dll.lssbfdonepressubline", 
+            "called", 
+            "log", 
+            "32-bit"
+        ], 
+        "weight": 145, 
+        "text": "0x7b43b6ac"
+    }, 
+    {
+        "relate": [
+            "framework", 
+            ".net", 
+            "version", 
+            "sql", 
+            "provider", 
+            "server"
+        ], 
+        "weight": 170, 
+        "text": "microsoft"
+    }, 
+    {
+        "relate": [
+            "page", 
+            "fault", 
+            "read", 
+            "32-bit", 
+            "nil", 
+            "loading"
+        ], 
+        "weight": 148, 
+        "text": "0x00000000"
+    }, 
+    {
+        "relate": [
+            "创建对象", 
+            "activex", 
+            "部件", 
+            "目录", 
+            "数据", 
+            "控件"
+        ], 
+        "weight": 384, 
+        "text": "创建"
+    }, 
+    {
+        "relate": [
+            "builtin", 
+            ".so", 
+            "winepulse.drv", 
+            "err:module:load_builtin_dll", 
+            "err:mmdevapi:dllgetclassobject", 
+            "load"
+        ], 
+        "weight": 173, 
+        "text": "libpulsecommon-9.0.so"
+    }, 
+    {
+        "relate": [
+            "registerederr:ole:cogetclassobject", 
+            "registerederr:ole:create_server", 
+            "0x1", 
+            "cogetclassobject", 
+            "log", 
+            "err:ole:create_server"
+        ], 
+        "weight": 79, 
+        "text": "{d27cdb6e-ae6d-11cf-96b8-444553540000}"
+    }, 
+    {
+        "relate": [
+            "microsoft.windows.common-controls", 
+            "npf", 
+            "dependent", 
+            "err:winedevice:async_create_driver", 
+            "assembly", 
+            "create"
+        ], 
+        "weight": 168, 
+        "text": "err:ole:create_server"
+    }, 
+    {
+        "relate": [
+            "0009", 
+            "{00000507-0000-0010-8000-00aa006d2ea4}", 
+            "esp", 
+            "eip", 
+            "overflow", 
+            "0x230000-0x231000-0x330000"
+        ], 
+        "weight": 166, 
+        "text": "0x0eedfade"
+    }, 
+    {
+        "relate": [
+            "0x0eedfade", 
+            "0x230000-0x231000-0x330000", 
+            "esp", 
+            "eip", 
+            "overflow", 
+            "err:seh:setup_exception_record"
+        ], 
+        "weight": 161, 
+        "text": "0009"
+    }, 
+    {
+        "relate": [
+            "dependent", 
+            "microsoft.windows.common-controls", 
+            "npf", 
+            "err:winedevice:async_create_driver", 
+            "err:ole:create_server", 
+            "create"
+        ], 
+        "weight": 160, 
+        "text": "assembly"
+    }, 
+    {
+        "relate": [
+            "绿色", 
+            "图标", 
+            "乱码", 
+            "设置", 
+            "界面显示", 
+            "黑屏"
+        ], 
+        "weight": 161, 
+        "text": "绿色软件"
+    }, 
+    {
+        "relate": [
+            "windows", 
+            "winepulse.drv", 
+            "module", 
+            "load", 
+            "loading", 
+            "msvbvm60.dll"
+        ], 
+        "weight": 155, 
+        "text": "system32"
+    }, 
+    {
+        "relate": [
+            "initialization", 
+            "c0000135", 
+            "rocky", 
+            "4ef6", 
+            "mfc42.dll", 
+            "msvbvm60.dll"
+        ], 
+        "weight": 159, 
+        "text": "founderr:module:ldrinitializethunk"
+    }, 
+    {
+        "relate": [
+            "下载", 
+            "更新", 
+            "游戏", 
+            "winetricks", 
+            ".net", 
+            "server"
+        ], 
+        "weight": 165, 
+        "text": "要求"
+    }, 
+    {
+        "relate": [
+            "按钮", 
+            "控件", 
+            "空白", 
+            "更新", 
+            "framework", 
+            "单机"
+        ], 
+        "weight": 155, 
+        "text": "对话框"
+    }, 
+    {
+        "relate": [
+            "esp", 
+            "overflow", 
+            "err:seh:setup_exception_record", 
+            "0x230000-0x231000-0x330000", 
+            "0009", 
+            "0x0eedfade"
+        ], 
+        "weight": 156, 
+        "text": "eip"
+    }, 
+    {
+        "relate": [
+            "路径", 
+            "按钮", 
+            "窗口", 
+            "完成", 
+            "可执行程序", 
+            "应用程序"
+        ], 
+        "weight": 383, 
+        "text": "找到"
+    }, 
+    {
+        "relate": [
+            "eip", 
+            "overflow", 
+            "err:seh:setup_exception_record", 
+            "0x230000-0x231000-0x330000", 
+            "0009", 
+            "0x0eedfade"
+        ], 
+        "weight": 155, 
+        "text": "esp"
+    }, 
+    {
+        "relate": [
+            "err:msi:iterate_actions", 
+            "1603", 
+            "apartment", 
+            "lock", 
+            "implemented", 
+            "中断"
+        ], 
+        "weight": 124, 
+        "text": "execution"
+    }, 
+    {
+        "relate": [
+            "framework", 
+            "microsoft", 
+            ".net", 
+            "provider", 
+            "runtime", 
+            "log"
+        ], 
+        "weight": 134, 
+        "text": "version"
+    }, 
+    {
+        "relate": [
+            "创建对象", 
+            "创建", 
+            "activex", 
+            "功能", 
+            "设置", 
+            "弹窗"
+        ], 
+        "weight": 153, 
+        "text": "部件"
+    }, 
+    {
+        "relate": [
+            "fault", 
+            "page", 
+            "read", 
+            "0x00000000", 
+            "called", 
+            "0009"
+        ], 
+        "weight": 151, 
+        "text": "32-bit"
+    }, 
+    {
+        "relate": [
+            "1603", 
+            "zip", 
+            "完成", 
+            "err:msi:iterate_actions", 
+            "中断", 
+            "对应"
+        ], 
+        "weight": 149, 
+        "text": "msi"
+    }, 
+    {
+        "relate": [
+            "组件", 
+            "初始化", 
+            "microsoft", 
+            "数据", 
+            "窗口", 
+            "服务"
+        ], 
+        "weight": 242, 
+        "text": "信息"
+    }, 
+    {
+        "relate": [
+            "libpulsecommon-9.0.so", 
+            "builtin", 
+            ".so", 
+            "err:mmdevapi:dllgetclassobject", 
+            "winepulse.drv", 
+            "failederr:ole:apartment_getclassobject"
+        ], 
+        "weight": 140, 
+        "text": "err:module:load_builtin_dll"
+    }, 
+    {
+        "relate": [
+            "0x0eedfade", 
+            "err:ole:create_server", 
+            "0009", 
+            "registerederr:ole:create_server", 
+            "registerederr:ole:cogetclassobject", 
+            "flags"
+        ], 
+        "weight": 108, 
+        "text": "{00000507-0000-0010-8000-00aa006d2ea4}"
+    }, 
+    {
+        "relate": [
+            "应用", 
+            "弹窗", 
+            "完成", 
+            "找到", 
+            "flags", 
+            "驱动"
+        ], 
+        "weight": 131, 
+        "text": "应用程序"
+    }, 
+    {
+        "relate": [
+            "找到", 
+            "配置", 
+            "应用程序", 
+            "目录", 
+            "server", 
+            "访问"
+        ], 
+        "weight": 137, 
+        "text": "完成"
+    }, 
+    {
+        "relate": [
+            ".net", 
+            "microsoft", 
+            "version", 
+            "provider", 
+            "point", 
+            "winetricks"
+        ], 
+        "weight": 129, 
+        "text": "framework"
+    }, 
+    {
+        "relate": [
+            "process", 
+            "runtime", 
+            "loaded", 
+            "0x230000-0x231000-0x330000", 
+            "overflow", 
+            "esp"
+        ], 
+        "weight": 110, 
+        "text": "mono"
+    }, 
+    {
+        "relate": [
+            "err:module:load_builtin_dll", 
+            "libpulsecommon-9.0.so", 
+            "builtin", 
+            ".so", 
+            "failederr:ole:apartment_getclassobject", 
+            "winepulse.drv"
+        ], 
+        "weight": 134, 
+        "text": "err:mmdevapi:dllgetclassobject"
+    }, 
+    {
+        "relate": [
+            "version", 
+            "microsoft", 
+            "framework", 
+            ".net", 
+            "链接", 
+            "找到"
+        ], 
+        "weight": 132, 
+        "text": "provider"
+    }, 
+    {
+        "relate": [
+            "数据", 
+            "功能", 
+            "存在", 
+            "windows", 
+            "server", 
+            "sql"
+        ], 
+        "weight": 170, 
+        "text": "配置"
+    }, 
+    {
+        "relate": [
+            "initialize", 
+            "file", 
+            "访问", 
+            "media", 
+            "server", 
+            "sql"
+        ], 
+        "weight": 117, 
+        "text": "installation"
+    }, 
+    {
+        "relate": [
+            "npf", 
+            "create", 
+            "nil", 
+            "err:seh:setup_exception_record", 
+            "esp", 
+            "eip"
+        ], 
+        "weight": 109, 
+        "text": "service"
+    }, 
+    {
+        "relate": [
+            "err:winediag:nulldrv_createwindow", 
+            "create", 
+            "driver", 
+            "process", 
+            "loaded", 
+            "err:eventlog:reporteventw"
+        ], 
+        "weight": 122, 
+        "text": "window"
+    }, 
+    {
+        "relate": [
+            "黑屏", 
+            "winetricks", 
+            "严重错误", 
+            "flash", 
+            "单机", 
+            "component"
+        ], 
+        "weight": 128, 
+        "text": "mfc42"
+    }, 
+    {
+        "relate": [
+            "路径", 
+            "窗口", 
+            "找到", 
+            "界面显示", 
+            "绿色", 
+            "对话框"
+        ], 
+        "weight": 125, 
+        "text": "按钮"
+    }, 
+    {
+        "relate": [
+            "导致", 
+            "sql", 
+            "组件", 
+            "microsoft", 
+            "zip", 
+            "server"
+        ], 
+        "weight": 116, 
+        "text": "继续"
+    }, 
+    {
+        "relate": [
+            "esp", 
+            "eip", 
+            "overflow", 
+            "0x230000-0x231000-0x330000", 
+            "0009", 
+            "service"
+        ], 
+        "weight": 126, 
+        "text": "err:seh:setup_exception_record"
+    }, 
+    {
+        "relate": [
+            "缺陷", 
+            "xp", 
+            "数据", 
+            "导致", 
+            "按钮", 
+            "服务"
+        ], 
+        "weight": 119, 
+        "text": "设置"
+    }, 
+    {
+        "relate": [
+            "3.0.25", 
+            "make", 
+            "winbind", 
+            "package", 
+            "err:winediag:secur32_initntlmsp", 
+            "outdated"
+        ], 
+        "weight": 117, 
+        "text": "path"
+    }, 
+    {
+        "relate": [
+            "6c736db1-bd94-11d0-8a23-00aa00b58e10", 
+            "数据", 
+            "组件", 
+            "界面显示", 
+            "0x0eedfade", 
+            "存在"
+        ], 
+        "weight": 123, 
+        "text": "未注册"
+    }, 
+    {
+        "relate": [
+            "缺陷", 
+            "继续", 
+            "提示框", 
+            "设置", 
+            "按钮", 
+            "目录"
+        ], 
+        "weight": 123, 
+        "text": "导致"
+    }, 
+    {
+        "relate": [
+            "reading", 
+            "called", 
+            "function", 
+            "弹窗", 
+            "file", 
+            "0x7b43b6ac"
+        ], 
+        "weight": 112, 
+        "text": "line"
+    }, 
+    {
+        "relate": [
+            "rocky", 
+            "乱码", 
+            "控件", 
+            "winetricks", 
+            "继续", 
+            "server"
+        ], 
+        "weight": 119, 
+        "text": "zip"
+    }, 
+    {
+        "relate": [
+            "corrupted", 
+            "media", 
+            "initialize", 
+            "package", 
+            "nil", 
+            "windows"
+        ], 
+        "weight": 114, 
+        "text": "installer"
+    }, 
+    {
+        "relate": [
+            "单机", 
+            "终端", 
+            "导致", 
+            "继续", 
+            "界面显示", 
+            "file"
+        ], 
+        "weight": 116, 
+        "text": "提示框"
+    }, 
+    {
+        "relate": [
+            "下载安装", 
+            "下载", 
+            "provider", 
+            "数据", 
+            "服务器", 
+            "找到"
+        ], 
+        "weight": 118, 
+        "text": "链接"
+    }, 
+    {
+        "relate": [
+            "player", 
+            "插件", 
+            "要求", 
+            "乱码", 
+            "更新", 
+            "mfc42"
+        ], 
+        "weight": 106, 
+        "text": "flash"
+    }, 
+    {
+        "relate": [
+            "interface", 
+            "memory", 
+            "lock", 
+            "load", 
+            "create", 
+            "err:ole:create_server"
+        ], 
+        "weight": 110, 
+        "text": "couldn"
+    }, 
+    {
+        "relate": [
+            "failederr:ole:apartment_getclassobject", 
+            "err:mmdevapi:dllgetclassobject", 
+            ".so", 
+            "builtin", 
+            "dllgetclassobject", 
+            "libpulsecommon-9.0.so"
+        ], 
+        "weight": 114, 
+        "text": "log"
+    }, 
+    {
+        "relate": [
+            "{6c736db1-bd94-11d0-8a23-00aa00b58e10}", 
+            "registerederr:ole:cogetclassobject", 
+            "{d27cdb6e-ae6d-11cf-96b8-444553540000}", 
+            "dllgetclassobject", 
+            "failederr:ole:apartment_getclassobject", 
+            "log"
+        ], 
+        "weight": 112, 
+        "text": "0x1"
+    }, 
+    {
+        "relate": [
+            "加载", 
+            "存在", 
+            "访问", 
+            "测试", 
+            "应用程序", 
+            "应用"
+        ], 
+        "weight": 167, 
+        "text": "驱动"
+    }, 
+    {
+        "relate": [
+            "runtime", 
+            "要求", 
+            "version", 
+            "配置", 
+            "下载", 
+            "nil"
+        ], 
+        "weight": 105, 
+        "text": "java"
+    }, 
+    {
+        "relate": [
+            "3.0.25", 
+            "winbind", 
+            "make", 
+            "package", 
+            "path", 
+            "outdated"
+        ], 
+        "weight": 109, 
+        "text": "err:winediag:secur32_initntlmsp"
+    }, 
+    {
+        "relate": [
+            "npf", 
+            "microsoft.windows.common-controls", 
+            "dependent", 
+            "create", 
+            "assembly", 
+            "err:ole:create_server"
+        ], 
+        "weight": 109, 
+        "text": "err:winedevice:async_create_driver"
+    }, 
+    {
+        "relate": [
+            "blocked", 
+            "初始化", 
+            "file", 
+            "entry", 
+            "load", 
+            "0009"
+        ], 
+        "weight": 103, 
+        "text": "section"
+    }, 
+    {
+        "relate": [
+            "initialization", 
+            "founderr:module:ldrinitializethunk", 
+            "msvbvm60.dll", 
+            "msvbvm50.dll", 
+            "mfc42.dll", 
+            "rocky"
+        ], 
+        "weight": 108, 
+        "text": "c0000135"
+    }, 
+    {
+        "relate": [
+            "function", 
+            "0x7b43b6ac", 
+            "unimplemented", 
+            "msls31.dll.lssbfdonepressubline", 
+            "32-bit", 
+            "log"
+        ], 
+        "weight": 107, 
+        "text": "called"
+    }, 
+    {
+        "relate": [], 
+        "weight": 107, 
+        "text": "error:ole"
+    }, 
+    {
+        "relate": [
+            "3.0.25", 
+            "winbind", 
+            "package", 
+            "path", 
+            "err:winediag:secur32_initntlmsp", 
+            "outdated"
+        ], 
+        "weight": 107, 
+        "text": "make"
+    }, 
+    {
+        "relate": [
+            "failederr:ole:apartment_getclassobject", 
+            "err:mmdevapi:dllgetclassobject", 
+            "err:module:load_builtin_dll", 
+            "libpulsecommon-9.0.so", 
+            "builtin", 
+            ".so"
+        ], 
+        "weight": 105, 
+        "text": "dllgetclassobject"
+    }, 
+    {
+        "relate": [
+            "initialize", 
+            "存在", 
+            "installation", 
+            "驱动", 
+            "file", 
+            "完成"
+        ], 
+        "weight": 129, 
+        "text": "访问"
+    }, 
+    {
+        "relate": [
+            "可执行程序", 
+            "找到", 
+            "功能", 
+            "msi", 
+            "err:ole:create_server", 
+            "应用"
+        ], 
+        "weight": 103, 
+        "text": "对应"
+    }, 
+    {
+        "relate": [
+            "winbind", 
+            "3.0.25", 
+            "make", 
+            "path", 
+            "err:winediag:secur32_initntlmsp", 
+            "outdated"
+        ], 
+        "weight": 100, 
+        "text": "package"
+    }, 
+    {
+        "relate": [
+            "libgluezilla", 
+            "implemented", 
+            "activex", 
+            "set", 
+            "microsoft", 
+            "type"
+        ], 
+        "weight": 94, 
+        "text": "support"
+    }, 
+    {
+        "relate": [
+            "key", 
+            "registry", 
+            "libgluezilla", 
+            "support", 
+            "point", 
+            "server"
+        ], 
+        "weight": 98, 
+        "text": "set"
+    }, 
+    {
+        "relate": [
+            "加载", 
+            "msvbvm60.dll", 
+            "module", 
+            "load", 
+            "弹窗", 
+            "终端"
+        ], 
+        "weight": 100, 
+        "text": "模块"
+    }, 
+    {
+        "relate": [
+            "winbind", 
+            "make", 
+            "package", 
+            "path", 
+            "err:winediag:secur32_initntlmsp", 
+            "outdated"
+        ], 
+        "weight": 98, 
+        "text": "3.0.25"
+    }, 
+    {
+        "relate": [
+            "3.0.25", 
+            "package", 
+            "make", 
+            "path", 
+            "err:winediag:secur32_initntlmsp", 
+            "outdated"
+        ], 
+        "weight": 96, 
+        "text": "winbind"
+    }, 
+    {
+        "relate": [
+            "microsoft.windows.common-controls", 
+            "assembly", 
+            "npf", 
+            "err:winedevice:async_create_driver", 
+            "err:ole:create_server", 
+            "create"
+        ], 
+        "weight": 95, 
+        "text": "dependent"
+    }, 
+    {
+        "relate": [
+            "服务", 
+            "配置", 
+            "服务器", 
+            "未注册", 
+            "sql", 
+            "创建"
+        ], 
+        "weight": 1219, 
+        "text": "数据"
+    }, 
+    {
+        "relate": [
+            "下载", 
+            "压缩包"
+        ], 
+        "weight": 97, 
+        "text": "提取"
+    }, 
+    {
+        "relate": [
+            "服务", 
+            "服务器", 
+            "cogetclassobject", 
+            ".exe", 
+            "missing", 
+            "key"
+        ], 
+        "weight": 90, 
+        "text": "客户端"
+    }, 
+    {
+        "relate": [
+            "mfc42", 
+            "libodbc.so", 
+            "mfc42.dll", 
+            "msvbvm60.dll", 
+            "framework", 
+            ".net"
+        ], 
+        "weight": 96, 
+        "text": "winetricks"
+    }, 
+    {
+        "relate": [
+            "imarshal::releasemarshaldata", 
+            "err:ole:coreleasemarshaldata", 
+            "终端", 
+            "err:winediag:odbc_loaddrivermanager", 
+            "libodbc.so", 
+            "数据"
+        ], 
+        "weight": 94, 
+        "text": "0x8001011d"
+    }, 
+    {
+        "relate": [
+            "要求", 
+            "下载", 
+            "player", 
+            "media", 
+            "操作系统", 
+            "服务器"
+        ], 
+        "weight": 94, 
+        "text": "更新"
+    }, 
+    {
+        "relate": [
+            "访问", 
+            "驱动", 
+            "配置", 
+            "路径", 
+            "图标", 
+            "6c736db1-bd94-11d0-8a23-00aa00b58e10"
+        ], 
+        "weight": 95, 
+        "text": "存在"
+    }, 
+    {
+        "relate": [
+            "操作", 
+            "xp", 
+            "继续", 
+            "windows", 
+            "组件", 
+            "更新"
+        ], 
+        "weight": 95, 
+        "text": "操作系统"
+    }, 
+    {
+        "relate": [
+            "lock", 
+            "couldn", 
+            "dosbox", 
+            "file", 
+            "winetricks", 
+            "终端"
+        ], 
+        "weight": 88, 
+        "text": "memory"
+    }, 
+    {
+        "relate": [], 
+        "weight": 93, 
+        "text": ".w3x"
+    }, 
+    {
+        "relate": [
+            "media", 
+            "flash", 
+            "windows", 
+            "更新", 
+            "下载", 
+            "加载"
+        ], 
+        "weight": 84, 
+        "text": "player"
+    }, 
+    {
+        "relate": [
+            "support", 
+            "set", 
+            "界面显示", 
+            "找到", 
+            "终端"
+        ], 
+        "weight": 67, 
+        "text": "libgluezilla"
+    }, 
+    {
+        "relate": [
+            "windows", 
+            "server", 
+            "操作系统", 
+            "设置", 
+            "要求", 
+            "操作"
+        ], 
+        "weight": 90, 
+        "text": "xp"
+    }, 
+    {
+        "relate": [
+            "目录", 
+            "要求", 
+            "测试", 
+            "客户端", 
+            "初始化", 
+            "插件"
+        ], 
+        "weight": 97, 
+        "text": "游戏"
+    }, 
+    {
+        "relate": [
+            "配置", 
+            "窗口", 
+            "windows", 
+            "framework", 
+            "microsoft", 
+            ".net"
+        ], 
+        "weight": 106, 
+        "text": "功能"
+    }, 
+    {
+        "relate": [
+            "implemented", 
+            "memory", 
+            "couldn", 
+            "flags", 
+            "unsupported", 
+            "execution"
+        ], 
+        "weight": 88, 
+        "text": "lock"
+    }, 
+    {
+        "relate": [
+            "应用", 
+            "测试", 
+            "0x0eedfade", 
+            "window", 
+            "应用程序", 
+            "0x00000000"
+        ], 
+        "weight": 90, 
+        "text": "32"
+    }, 
+    {
+        "relate": [
+            "未注册", 
+            "数据", 
+            "界面显示", 
+            "0x0eedfade", 
+            "存在", 
+            "服务器"
+        ], 
+        "weight": 90, 
+        "text": "6c736db1-bd94-11d0-8a23-00aa00b58e10"
+    }, 
+    {
+        "relate": [], 
+        "weight": 45, 
+        "text": "talking"
+    }, 
+    {
+        "relate": [
+            "installation", 
+            "访问", 
+            "initialization", 
+            "assembly", 
+            "file", 
+            "module"
+        ], 
+        "weight": 88, 
+        "text": "initialize"
+    }, 
+    {
+        "relate": [
+            "服务器", 
+            "客户端", 
+            "sql", 
+            "server", 
+            "数据", 
+            "下载"
+        ], 
+        "weight": 414, 
+        "text": "服务"
+    }, 
+    {
+        "relate": [
+            "链接", 
+            "下载", 
+            ".net", 
+            "framework", 
+            "要求", 
+            "media"
+        ], 
+        "weight": 88, 
+        "text": "下载安装"
+    }, 
+    {
+        "relate": [
+            "应用", 
+            "founderr:module:ldrinitializethunk", 
+            "initialization", 
+            "ole"
+        ], 
+        "weight": 85, 
+        "text": "pdf"
+    }, 
+    {
+        "relate": [
+            "key", 
+            "registry", 
+            "line", 
+            "终端", 
+            "file", 
+            "initialization"
+        ], 
+        "weight": 85, 
+        "text": "reading"
+    }, 
+    {
+        "relate": [
+            "installer", 
+            "file", 
+            "installation", 
+            "package", 
+            "弹窗", 
+            "read"
+        ], 
+        "weight": 77, 
+        "text": "corrupted"
+    }, 
+    {
+        "relate": [
+            "entry", 
+            "loaded", 
+            "registry", 
+            "key", 
+            "framework", 
+            "set"
+        ], 
+        "weight": 86, 
+        "text": "point"
+    }, 
+    {
+        "relate": [
+            "registry", 
+            "server", 
+            "window", 
+            "process", 
+            "nil", 
+            "service"
+        ], 
+        "weight": 49, 
+        "text": "err:eventlog:reporteventw"
+    }, 
+    {
+        "relate": [
+            "libodbc.so", 
+            "目录", 
+            "err:ole:coreleasemarshaldata", 
+            "imarshal::releasemarshaldata", 
+            "0x8001011d", 
+            "winetricks"
+        ], 
+        "weight": 86, 
+        "text": "err:winediag:odbc_loaddrivermanager"
+    }, 
+    {
+        "relate": [
+            "founderr:module:ldrinitializethunk", 
+            "winetricks", 
+            "system32", 
+            "c0000135", 
+            "windows", 
+            "initialization"
+        ], 
+        "weight": 81, 
+        "text": "msvbvm50.dll"
+    }, 
+    {
+        "relate": [
+            "component", 
+            "file", 
+            "version", 
+            "log", 
+            "客户端", 
+            "server"
+        ], 
+        "weight": 68, 
+        "text": "missing"
+    }, 
+    {
+        "relate": [
+            "0x7b43b6ac", 
+            "function", 
+            "unimplemented", 
+            "called", 
+            "log", 
+            "32-bit"
+        ], 
+        "weight": 72, 
+        "text": "msls31.dll.lssbfdonepressubline"
+    }, 
+    {
+        "relate": [
+            "缺陷", 
+            "窗口", 
+            "严重错误", 
+            "操作"
+        ], 
+        "weight": 84, 
+        "text": "造成"
+    }, 
+    {
+        "relate": [
+            "couldn", 
+            "create", 
+            "implemented", 
+            "终端", 
+            "unsupported", 
+            "缺陷"
+        ], 
+        "weight": 69, 
+        "text": "interface"
+    }, 
+    {
+        "relate": [
+            "err:ole:coreleasemarshaldata", 
+            "0x8001011d", 
+            "err:winediag:odbc_loaddrivermanager", 
+            "终端", 
+            "libodbc.so", 
+            "数据"
+        ], 
+        "weight": 80, 
+        "text": "imarshal::releasemarshaldata"
+    }, 
+    {
+        "relate": [
+            "窗口", 
+            "err:winediag:secur32_initntlmsp", 
+            "winbind", 
+            "3.0.25", 
+            "package", 
+            "make"
+        ], 
+        "weight": 91, 
+        "text": "空白"
+    }, 
+    {
+        "relate": [
+            "execution", 
+            "1603", 
+            "apartment", 
+            "中断", 
+            "log", 
+            "server"
+        ], 
+        "weight": 80, 
+        "text": "err:msi:iterate_actions"
+    }, 
+    {
+        "relate": [
+            "microsoft.windows.common-controls", 
+            "err:winedevice:async_create_driver", 
+            "dependent", 
+            "assembly", 
+            "err:ole:create_server", 
+            "create"
+        ], 
+        "weight": 82, 
+        "text": "npf"
+    }, 
+    {
+        "relate": [
+            "loaded", 
+            "process", 
+            "module", 
+            "0x00000000", 
+            "err:seh:setup_exception_record", 
+            "file"
+        ], 
+        "weight": 68, 
+        "text": "execute"
+    }, 
+    {
+        "relate": [
+            "0x00000000", 
+            "nil", 
+            "read", 
+            "page", 
+            "fault", 
+            "system32"
+        ], 
+        "weight": 81, 
+        "text": "loading"
+    }, 
+    {
+        "relate": [
+            "32", 
+            "驱动", 
+            "游戏", 
+            "要求", 
+            "目录", 
+            "media"
+        ], 
+        "weight": 86, 
+        "text": "测试"
+    }, 
+    {
+        "relate": [
+            "execution", 
+            "err:msi:iterate_actions", 
+            "lock", 
+            "msi", 
+            "implemented", 
+            "server"
+        ], 
+        "weight": 81, 
+        "text": "1603"
+    }, 
+    {
+        "relate": [
+            "section", 
+            "初始化", 
+            "0009", 
+            "图标", 
+            "support", 
+            "mfc42.dll"
+        ], 
+        "weight": 80, 
+        "text": "blocked"
+    }, 
+    {
+        "relate": [
+            "控件", 
+            "加载", 
+            "下载", 
+            "要求", 
+            "ntlm_auth", 
+            "乱码"
+        ], 
+        "weight": 137, 
+        "text": "过期"
+    }, 
+    {
+        "relate": [
+            "zip", 
+            "加载", 
+            "应用", 
+            "flash", 
+            "驱动", 
+            "窗口"
+        ], 
+        "weight": 80, 
+        "text": "乱码"
+    }, 
+    {
+        "relate": [
+            "imarshal::releasemarshaldata", 
+            "0x8001011d", 
+            "err:winediag:odbc_loaddrivermanager", 
+            "终端", 
+            "libodbc.so", 
+            "数据"
+        ], 
+        "weight": 79, 
+        "text": "err:ole:coreleasemarshaldata"
+    }, 
+    {
+        "relate": [
+            "4ef6", 
+            "founderr:module:ldrinitializethunk", 
+            "zip", 
+            "initialization", 
+            "控件", 
+            "mfc42.dll"
+        ], 
+        "weight": 61, 
+        "text": "rocky"
+    }, 
+    {
+        "relate": [
+            "memory", 
+            "终端", 
+            "绿色"
+        ], 
+        "weight": 41, 
+        "text": "dosbox"
+    }, 
+    {
+        "relate": [
+            "missing", 
+            "create", 
+            "activex", 
+            "file", 
+            "winetricks", 
+            "microsoft"
+        ], 
+        "weight": 76, 
+        "text": "component"
+    }, 
+    {
+        "relate": [
+            "point", 
+            "loaded", 
+            "type", 
+            "section", 
+            "key", 
+            "file"
+        ], 
+        "weight": 79, 
+        "text": "entry"
+    }, 
+    {
+        "relate": [
+            "绿色软件", 
+            "存在", 
+            "单机", 
+            "flags", 
+            "blocked", 
+            "err:winediag:odbc_loaddrivermanager"
+        ], 
+        "weight": 79, 
+        "text": "图标"
+    }, 
+    {
+        "relate": [
+            "dependent", 
+            "npf", 
+            "err:winedevice:async_create_driver", 
+            "assembly", 
+            "err:ole:create_server", 
+            "create"
+        ], 
+        "weight": 78, 
+        "text": "microsoft.windows.common-controls"
+    }, 
+    {
+        "relate": [
+            "threading", 
+            "attempt", 
+            "apartment", 
+            "builtin", 
+            ".so", 
+            "libpulsecommon-9.0.so"
+        ], 
+        "weight": 77, 
+        "text": "change"
+    }, 
+    {
+        "relate": [
+            "player", 
+            "windows", 
+            "installation", 
+            "installer", 
+            "更新", 
+            "file"
+        ], 
+        "weight": 74, 
+        "text": "media"
+    }, 
+    {
+        "relate": [
+            "window", 
+            "process", 
+            "create", 
+            "driver", 
+            "loaded", 
+            "{6c736db1-bd94-11d0-8a23-00aa00b58e10}"
+        ], 
+        "weight": 74, 
+        "text": "err:winediag:nulldrv_createwindow"
+    }, 
+    {
+        "relate": [
+            "flags", 
+            "lock", 
+            "implemented", 
+            "threading", 
+            "attempt", 
+            "change"
+        ], 
+        "weight": 67, 
+        "text": "unsupported"
+    }, 
+    {
+        "relate": [
+            "registry", 
+            "reading", 
+            "set", 
+            "终端", 
+            "point", 
+            "framework"
+        ], 
+        "weight": 78, 
+        "text": "key"
+    }, 
+    {
+        "relate": [
+            "esp", 
+            "eip", 
+            "overflow", 
+            "err:seh:setup_exception_record", 
+            "0009", 
+            "0x0eedfade"
+        ], 
+        "weight": 78, 
+        "text": "0x230000-0x231000-0x330000"
+    }, 
+    {
+        "relate": [
+            "execution", 
+            "err:msi:iterate_actions", 
+            "log", 
+            "信息", 
+            "1603", 
+            "lock"
+        ], 
+        "weight": 81, 
+        "text": "中断"
+    }, 
+    {
+        "relate": [
+            "key", 
+            "reading", 
+            "set", 
+            "err:eventlog:reporteventw", 
+            "终端", 
+            "point"
+        ], 
+        "weight": 77, 
+        "text": "registry"
+    }, 
+    {
+        "relate": [
+            "threading", 
+            "change", 
+            "apartment", 
+            "builtin", 
+            ".so", 
+            "libpulsecommon-9.0.so"
+        ], 
+        "weight": 76, 
+        "text": "attempt"
+    }, 
+    {
+        "relate": [
+            "change", 
+            "attempt", 
+            "apartment", 
+            "builtin", 
+            ".so", 
+            "libpulsecommon-9.0.so"
+        ], 
+        "weight": 76, 
+        "text": "threading"
+    }, 
+    {
+        "relate": [
+            "dllgetclassobject", 
+            "err:mmdevapi:dllgetclassobject", 
+            "err:module:load_builtin_dll", 
+            "libpulsecommon-9.0.so", 
+            "builtin", 
+            ".so"
+        ], 
+        "weight": 77, 
+        "text": "failederr:ole:apartment_getclassobject"
+    }, 
+    {
+        "relate": [
+            "unsupported", 
+            "lock", 
+            "implemented", 
+            "execution", 
+            "应用程序", 
+            "threading"
+        ], 
+        "weight": 71, 
+        "text": "flags"
+    }, 
+    {
+        "relate": [
+            "rocky", 
+            "founderr:module:ldrinitializethunk", 
+            "initialization", 
+            "mfc42.dll", 
+            "msvbvm60.dll", 
+            "installation"
+        ], 
+        "weight": 50, 
+        "text": "4ef6"
+    }
+]
