@@ -27,9 +27,29 @@
                 columns: titles,
             });
             $('#returnButton').empty().append('<button type="button" id="retBtn" class="btn btn-primary">Return to WordCloud</button>')
+            $('#nextButton').empty().append('<button type="button" id="nxtBtn" class="btn btn-primary">Next</button>')
             $('#retBtn').click(function () {
                 $('html, body').animate({scrollTop: $('#tagCloud').offset().top}, 'slow');
-            })
+            });
+
+            $('#pipline_1').click(function(){
+                
+                var pipline_text = $("#pipline_1 > a")[0].innerText;
+                console.log(pipline_text);
+                
+                $.getJSON("{% url 'ajax_table' %}", {filterQuery: pipline_text}, function (retjson) {
+                    var titles = [];
+                    // $.each(retjson.columns, function (i, val) {
+                    //     titles.push({title: val});
+                    // });
+                    // $('#tableDiv').empty().append('<table id="displayTable" class="table table-striped table-bordered" cellspacing="0"></table>');
+                    // $('#displayTable').DataTable( {
+                    //     data: retjson['data'],
+                    //     columns: titles,
+                    // });
+                });
+
+            });
         });
 
     </script>
@@ -54,22 +74,40 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
+        <li class="active" id="filter_all"><a href="#">全部 <span class="sr-only">(current)</span></a></li>
+        <li><a href="#" id="filter_installed">只显示可以安装</a></li>
+        <li><a href="#" id="filter_executed">只显示可以运行</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">流水线 <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li id="pipline_1"><a href="#" >1号流水线</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+            <li id="pipline_2"><a href="#" >2号流水线</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li id="pipline_3"><a href="#">3号流水线</a></li>
+            <li role="separator" class="divider"></li>
+            <li id="pipline_4"><a href="#">4号流水线</a></li>
+            <li role="separator" class="divider"></li>
+            <li id="pipline_5"><a href="#">5号流水线</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">按照应用来源 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li id="duote"><a href="#" >多特</a></li>
+            <li role="separator" class="divider"></li>
+            <li id="huajun" ><a href="#">华军</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">test</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">test</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">test</a></li>
           </ul>
         </li>
       </ul>
-      <form class="navbar-form navbar-left">
+      <div id="nextButton" class="navbar-form navbar-right"></div>
+      <!-- <form class="navbar-form navbar-left">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
         </div>
@@ -87,7 +125,7 @@
             <li><a href="#">Separated link</a></li>
           </ul>
         </li>
-      </ul>
+      </ul> -->
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>

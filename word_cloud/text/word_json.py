@@ -29,6 +29,15 @@ def all_json():
 
     return all_json
 
+def filter_json(filterQuery):
+
+    # with open(path+'word_cloud/json/all.json','rb') as f:
+    #     all_json = json.load(f)
+    print(filterQuery)
+    all_json=ConnectAccess()
+
+    return all_json
+
 DBfile = r"C:\Users\weihong\Documents\test\0505_0518.accdb"  # 数据库文件 ";Uid=;Pwd=;"
 tablename = "0505"
 query ='select * from %s' % tablename

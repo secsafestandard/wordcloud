@@ -20,5 +20,6 @@ from words import views as words_views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', words_views.index, name='index'),
-    url(r'^ajax_table/$', words_views.ajax_table, name='ajax_table')
+    url(r'^ajax_table/$', words_views.ajax_table, name='ajax_table'),
+    url(r'^ajax_select_table/$', words_views.ajax_select_table, name='ajax_select_table')
 ]
