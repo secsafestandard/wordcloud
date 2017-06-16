@@ -8,8 +8,8 @@ from datetime import *
 import time
 
 def display():
-    py = connectdb()
-    py.ConnectAccess()
+    py = Connect('SELECT * FROM 0505 WHERE 是否可安装 = \'是\'')
+    py.connect_access()
 
 class Connect:
     def __init__(self,query='select * from 0505',DBfile=r"C:\Users\weihong\Documents\test\0505_0518.accdb"):
@@ -30,8 +30,9 @@ class Connect:
         count = 0
         data = []
         for row in cursor.execute(SQL):
-            if(count > 1):
+            if(count > 20):
                 break;
+            count = count + 1
             # print (row.最后更新时间)
             # print (type(row.最后更新时间))
             tmpList = [
@@ -76,8 +77,8 @@ class Connect:
         return retDict
 
 if __name__ == '__main__':
-    py = py2odbc()
-    py.ConnectAccess()
+    py = Connect('SELECT * FROM 0505 WHERE 应用来源 = \'多特\'')
+    py.connect_access()
 
 
 

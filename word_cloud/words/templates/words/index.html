@@ -31,6 +31,9 @@
             $('#retBtn').click(function () {
                 $('html, body').animate({scrollTop: $('#tagCloud').offset().top}, 'slow');
             });
+            $('#nxtBtn').click(function () {
+                $('html, body').animate({scrollTop: $('#tagCloud').offset().top}, 'slow');
+            });
 
              
         });
@@ -53,27 +56,28 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Brand</a>
+      <a class="navbar-brand" href="#">选项</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active" id="filter_all"><a href="#">全部 <span class="sr-only">(current)</span></a></li>
+        <li id="filter_all"><a href="#">全部 <span class="sr-only">(current)</span></a></li>
+        <!-- <li class="active" id="filter_all"><a href="#">全部 <span class="sr-only">(current)</span></a></li> -->
         <li><a href="#" id="filter_installed">只显示可以安装</a></li>
         <li><a href="#" id="filter_executed">只显示可以运行</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">流水线 <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li class="pipline"><a href="#" >1号流水线</a></li>
+            <li class="pipline" id="pipline_1"><a href="#" >1号流水线</a></li>
             <li role="separator" class="divider"></li>
-            <li class="pipline"><a href="#" >2号流水线</a></li>
+            <li class="pipline" id="pipline_2"><a href="#" >2号流水线</a></li>
             <li role="separator" class="divider"></li>
-            <li class="pipline"><a href="#">3号流水线</a></li>
+            <li class="pipline" id="pipline_3"><a href="#">3号流水线</a></li>
             <li role="separator" class="divider"></li>
-            <li class="pipline"><a href="#">4号流水线</a></li>
+            <li class="pipline" id="pipline_4"><a href="#">4号流水线</a></li>
             <li role="separator" class="divider"></li>
-            <li class="pipline"><a href="#">5号流水线</a></li>
+            <li class="pipline" id="pipline_5"><a href="#">5号流水线</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -144,11 +148,31 @@
     // $('#retBtn').click(function () {
     //     $('html, body').animate({scrollTop: 0}, 'slow');
     // })
+    // 
+     $('#filter_all').click(function(){
+        console.log("all");
+        var url = "{% url 'ajax_select_table' %}";
+        query="all";
+        $.getJSON(url, {filterQuery: query}, drawSelectTable);
+    });
+
+    $('#duote').click(function(){
+        console.log("多特");
+        var url = "{% url 'ajax_select_table' %}";
+        query="duote";
+        $.getJSON(url, {filterQuery: query}, drawSelectTable);
+    });
+
+    $('#huajun').click(function(){
+        console.log("华军");
+        var url = "{% url 'ajax_select_table' %}";
+        query="huajun";
+        $.getJSON(url, {filterQuery: query}, drawSelectTable);
+    });
+
+
     $('#filter_installed').click(function(){
         console.log("只显示可以安装");
-
-        // var pipline_text = $("#filter_installed")[0].innerText;
-        //  console.log(pipline_text)
         var url = "{% url 'ajax_select_table' %}";
         query="installed";
         $.getJSON(url, {filterQuery: query}, drawSelectTable);
@@ -156,30 +180,61 @@
 
     $('#filter_executed').click(function(){
         console.log("只显示可以运行");
-
-        // var pipline_text = $("#filter_installed")[0].innerText;
-        //  console.log(pipline_text)
         var url = "{% url 'ajax_select_table' %}";
         query="executed";
         $.getJSON(url, {filterQuery: query}, drawSelectTable);
     });
-
-    $('.pipline').click(function(){
-        // console.log(e.target.value);
-         var jquery_str = ".pipline > a"
-        var pipline_text = $(jquery_str)[0].innerText;
-        console.log($(".pipline > a"));
-        console.log("pipline_text");
+    $('#pipline_1').click(function(){
+        console.log("1");
         var url = "{% url 'ajax_select_table' %}";
-        var query;
-        if(pipline_text =="1号流水线"){
-            query = "1"
-        }
-        else if(pipline_text =="2号流水线"){
-            query = "2"
-        }
+        query="1";
         $.getJSON(url, {filterQuery: query}, drawSelectTable);
     });
+
+    $('#pipline_2').click(function(){
+        console.log("2");
+        var url = "{% url 'ajax_select_table' %}";
+        query="2";
+        $.getJSON(url, {filterQuery: query}, drawSelectTable);
+    });
+
+    $('#pipline_3').click(function(){
+        console.log("3");
+        var url = "{% url 'ajax_select_table' %}";
+        query="3";
+        $.getJSON(url, {filterQuery: query}, drawSelectTable);
+    });
+
+    $('#pipline_4').click(function(){
+        console.log("4");
+        var url = "{% url 'ajax_select_table' %}";
+        query="4";
+        $.getJSON(url, {filterQuery: query}, drawSelectTable);
+    });
+
+    $('#pipline_5').click(function(){
+        console.log("5");
+        var url = "{% url 'ajax_select_table' %}";
+        query="5";
+        $.getJSON(url, {filterQuery: query}, drawSelectTable);
+    });
+
+    // $('.pipline').click(function(){
+    //     // console.log(e.target.value);
+    //      var jquery_str = ".pipline > a"
+    //     var pipline_text = $(jquery_str)[0].innerText;
+    //     console.log($(".pipline > a"));
+    //     console.log("pipline_text");
+    //     var url = "{% url 'ajax_select_table' %}";
+    //     var query;
+    //     if(pipline_text =="1号流水线"){
+    //         query = "1"
+    //     }
+    //     else if(pipline_text =="2号流水线"){
+    //         query = "2"
+    //     }
+    //     $.getJSON(url, {filterQuery: query}, drawSelectTable);
+    // });
 
     function drawSelectTable(retjson){
         console.log("draw");
@@ -253,7 +308,8 @@
                             columns: titles,
                         });
                     });
-                    $('html, body').animate({scrollTop: $('#relateWords').offset().top}, 'slow');
+                     // $('html, body').animate({scrollTop: $('#tagCloud').offset().top}, 'slow')
+                    $('html, body').animate({scrollTop: $('#tableDiv').offset().top}, 'slow');
                 }
             }
         });

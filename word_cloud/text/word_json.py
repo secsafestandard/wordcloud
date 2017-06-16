@@ -35,18 +35,32 @@ def all_json():
 
     return all_json
 
-def filter_json(typye):
+def filter_json(filterType):
 
     # with open(path+'word_cloud/json/all.json','rb') as f:
     #     all_json = json.load(f)
     filterQuery=''
 
-    if typye=="1" :
-        filterQuery ='SELECT * FROM 0505 WHERE 测试流水线 = \'1\''
-    elif typye=="installed":
-        filterQuery ='SELECT * FROM 0505 WHERE 是否可安装 = \'是\' or 是否可安装 = \'否\''
-    elif typye=="executed":
-        filterQuery ='SELECT * FROM 0505 WHERE 是否可安装 = \'是\' and 是否可安装 = \'是\''
+    if filterType=="1" :
+        filterQuery ='SELECT * FROM 0505 WHERE 测试流水线 = 1'
+    elif filterType=="2" :
+        filterQuery ='SELECT * FROM 0505 WHERE 测试流水线 = 2'
+    elif filterType=="3" :
+        filterQuery ='SELECT * FROM 0505 WHERE 测试流水线 = 3'
+    elif filterType=="4" :
+        filterQuery ='SELECT * FROM 0505 WHERE 测试流水线 = 4'
+    elif filterType=="5" :
+        filterQuery ='SELECT * FROM 0505 WHERE 测试流水线 = 5'
+    elif filterType=="installed":
+        filterQuery ='SELECT * FROM 0505 WHERE 是否可安装 = \'是\''
+    elif filterType=="executed":
+        filterQuery ='SELECT * FROM 0505 WHERE 是否可运行 = \'是\''
+    elif filterType=="duote":
+        filterQuery ='SELECT * FROM 0505 WHERE 应用来源 = \'多特\''
+    elif filterType=="huajun":
+        filterQuery ='SELECT * FROM 0505 WHERE 应用来源 = \'华军\''
+    elif filterType =="all":
+        filterQuery ='SELECT * FROM 0505'
     print(filterQuery)
     DBfile = r"C:\Users\weihong\Documents\test\0505_0518.accdb"  # 数据库文件 ";Uid=;Pwd=;"
     py = Connect(filterQuery,DBfile)
